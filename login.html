@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng nhập</title>
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body class="login-page">
+    <main class="login-layout">
+      <section class="login-form-area">
+        <div class="login-box">
+          <div class="login-logo">
+            <img src="images/logo.png" alt="Logo" />
+          </div>
+          <h1>Chào mừng trở lại</h1>
+          <p class="login-sub">
+            Đăng nhập quản trị để quản lý portfolio của bạn.
+          </p>
+          <form action="admin.html" method="get">
+            <div class="field">
+              <input
+                type="text"
+                id="username"
+                name="username"
+                placeholder=" "
+              />
+              <label for="username">Tên đăng nhập</label>
+            </div>
+            <div class="field">
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder=" "
+              />
+              <label for="password">Mật khẩu</label>
+            </div>
+            <div class="login-options">
+              <label class="remember"
+                ><input type="checkbox" name="remember" /> Ghi nhớ đăng
+                nhập</label
+              >
+              <a href="#">Quên mật khẩu?</a>
+            </div>
+            <button class="btn" type="submit">Đăng nhập</button>
+          </form>
+          <a class="back-home" href="index.html">← Về trang chủ</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

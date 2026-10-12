@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản trị dự án</title>
+    <link rel="stylesheet" href="css/admin.css">
+
+</head>
+ <body class="admin-page">
+        <div class="admin-layout">
+            <header>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Ảnh logo">
+                </div>
+                <div class="user">
+                    <p>Admin</p>
+                    <img id="avatar" src="images/avatar.png" alt="avatar">
+                    <a class="btn-login" href="login.html">Đăng xuất</a>
+                </div>
+            </header>
+            <aside class="sidebar">
+                <ul class="side-menu">
+                    <li><a href="admin.html">Dự án</a></li>
+                    <li><a href="#">Kỹ năng</a></li>
+                    <li><a href="#">Hồ sơ cá nhân</a></li>
+                    <li><a href="index.html">Về trang chủ</a></li>
+                </ul>
+            </aside>
+            <main class="content">
+                <h1 class="welcome-title">Xin chào, Nguyễn Hoàng Anh</h1>
+                <p class="welcome-sub">Khu vực quản trị website portfolio cá nhân</p>
+                <div class="stat-section">
+                    <div class="stat">
+                        <p class="stat-label">Tổng số dự án</p>
+                        <h3 class="stat-number">4</h3>
+                        <p class="stat-note">2 hoàn thành, 2 đang làm</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat-label">Lượt truy cập</p>
+                        <h3 class="stat-number">1.280</h3>
+                        <p class="stat-note">Trong 30 ngày gần nhất</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat-label">Tin nhắn liên hệ</p>
+                        <h3 class="stat-number">12</h3>
+                        <p class="stat-note">3 tin chưa đọc</p>
+                    </div>
+                </div>
+                <h2 class="category-title">Quản lý dự án</h2>
+                <div class="toolbar">
+                    <input type="text" id="search-input" placeholder="Tìm dự án...">
+                    <a class="btn" href="#">+ Thêm dự án</a>
+                </div>
+                <div class="table-wrap">
+                    <table>
+                        <tr>
+                            <th>Tên dự án</th>
+                            <th>Mô tả</th>
+                            <th>Trạng thái</th>
+                            <th>Hành động</th>
+                        </tr>
+                        <tr>
+                            <td>Website bán hàng thủ công</td>
+                            <td>Danh mục sản phẩm, giỏ hàng</td>
+                            <td class="status-done">Hoàn thành</td>
+                            <td class="actions"><a class="btn btn-small" href="#">Sửa</a><a class="btn btn-small btn-delete" href="#">Xóa</a></td>
+                        </tr>
+                        <tr>
+                            <td>Blog cá nhân</td>
+                            <td>Chia sẻ kiến thức lập trình</td>
+                            <td class="status-done">Hoàn thành</td>
+                            <td class="actions"><a class="btn btn-small" href="#">Sửa</a><a class="btn btn-small btn-delete" href="#">Xóa</a></td>
+                        </tr>
+                        <tr>
+                            <td>Landing page quán cà phê</td>
+                            <td>Thực đơn, giờ mở cửa, bản đồ</td>
+                            <td class="status-doing">Đang làm</td>
+                            <td class="actions"><a class="btn btn-small" href="#">Sửa</a><a class="btn btn-small btn-delete" href="#">Xóa</a></td>
+                        </tr>
+                        <tr>
+                            <td>Dashboard thống kê</td>
+                            <td>Hiển thị số liệu bằng thẻ và bảng</td>
+                            <td class="status-doing">Đang làm</td>
+                            <td class="actions"><a class="btn btn-small" href="#">Sửa</a><a class="btn btn-small btn-delete" href="#">Xóa</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
