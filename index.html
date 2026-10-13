@@ -1,9 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio</title>
+    <title>Nguyễn Hoàng Anh - Portfolio | Backend & Fullstack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
@@ -11,23 +17,33 @@
       <div class="logo">
         <img src="images/logo.png" alt="Ảnh logo" />
       </div>
+      <nav>
+        <input
+          type="checkbox"
+          id="menu-toggle"
+          class="menu-toggle"
+          aria-label="Mở menu"
+        />
+        <label for="menu-toggle" class="menu-btn" title="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+        <ul class="menu">
+          <li><a href="#about">Giới thiệu</a></li>
+          <li><a href="#skills">Kỹ năng</a></li>
+          <li><a href="#tools">Công nghệ</a></li>
+          <li><a href="#projects">Dự án</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+      </nav>
       <div class="user">
         <a class="btn-login" href="login.html">Đăng nhập vào quản trị</a>
       </div>
     </header>
-    <nav>
-      <img src="menu.png" alt="" />
-      <ul class="menu">
-        <li><a href="#about">Giới thiệu</a></li>
-        <li><a href="#skills">Kỹ năng</a></li>
-        <li><a href="#tools">Công nghệ</a></li>
-        <li><a href="#projects">Dự án</a></li>
-        <li><a href="#contact">Liên hệ</a></li>
-      </ul>
-    </nav>
     <section class="intro" id="about">
       <div class="intro-info">
-        <img src="images/avatar.png" alt="avatar" />
+        <img src="images/avatarmau.png" alt="avatar" />
         <div class="intro-text">
           <h1>Nguyễn Hoàng Anh</h1>
           <h3>Sinh viên Công nghệ thông tin</h3>
@@ -136,7 +152,7 @@
         <h3 class="title-project">Website bán hàng thủ công</h3>
         <img
           class="project-image"
-          src="images/banhangthucong.png"
+          src="images/webthucong.png"
           alt="ảnh dự án"
         />
         <p class="description">
