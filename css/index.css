@@ -34,7 +34,7 @@ a {
   color: inherit;
 }
 header {
-  background-color: var(--bgcolor);
+  background-color: #002b30;
   min-height: 80px;
   display: flex;
   justify-content: space-between;
