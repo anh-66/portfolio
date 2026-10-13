@@ -99,7 +99,6 @@ header {
   color: var(--main-color);
 }
 .category-title {
-  border-left: 5px var(--main-color) solid;
   padding: 5px 10px;
   color: var(--main-color);
   border-radius: var(--radius);
@@ -158,15 +157,8 @@ header {
 .stat {
   background-color: #fff;
   padding: 16px 20px;
-  border-left: 5px var(--bgcolor) solid;
   border-radius: var(--radius);
   box-shadow: rgba(200, 190, 190, 0.346) 0px 0px 10px 3px;
-}
-.stat:nth-child(2) {
-  border-left-color: var(--second-color);
-}
-.stat:nth-child(3) {
-  border-left-color: var(--main-color);
 }
 .stat-label {
   color: rgb(93, 107, 122);

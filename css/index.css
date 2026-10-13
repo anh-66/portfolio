@@ -152,7 +152,6 @@ nav {
   width: 320px;
   flex: none;
   padding: 20px;
-  border-left: 5px var(--second-color) solid;
   border-radius: var(--radius);
   background-color: rgb(240, 250, 250);
 }
@@ -209,7 +208,6 @@ nav {
   min-width: 0;
   padding: 16px;
   border: 1px solid #d7e6e6;
-  border-left: 5px solid var(--bgcolor);
   border-radius: var(--radius);
   background-color: #fff;
   box-shadow: 0 2px 8px rgba(0, 72, 80, 0.08);
